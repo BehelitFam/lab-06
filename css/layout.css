@@ -1,0 +1,62 @@
+body, main, section, div {
+    display: grid;
+    margin: 0 auto 0 auto;
+    text-align: center;
+    width: 100%;
+}
+
+
+
+div {
+    position: relative;
+}
+
+
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    main {
+        grid-template-rows: 75px 1fr;
+        width: 480px;
+    }
+
+    .notA {
+        grid-template-rows: 150px 1fr;
+    }
+
+    .ugh {
+        grid-template-rows: 125px 500px 80px;
+    }
+    
+    .efghSection {
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+
+    main {
+        grid-template-rows: 100px 1fr;
+        width: 100%;
+        max-width: 960px;
+    }
+    
+    .notA {
+        grid-template-columns: 200px 1fr;
+        height: 600px;
+    }
+
+    .ugh {
+        grid-template-rows: 200px 250px 150px;
+    }
+
+    .cdSection {
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .efghSection {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+}
+

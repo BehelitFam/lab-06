@@ -1,0 +1,116 @@
+
+
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    .a {
+        background-color: lightblue;
+    }
+
+    .b {
+        background-color: lightgreen;
+    }
+
+    .c {
+        background-color: lightgoldenrodyellow;
+    }
+
+    .d {
+        background-color: lightgrey;
+    }
+
+    .e {
+        background-color: lightcyan;
+    }
+
+    .f {
+        background-color: lightcoral;
+    }
+
+    .g {
+        background-color: lightskyblue;
+    }
+
+    .h {
+        background-color: lightcyan;
+    }
+
+    .i {
+        background-color: lightseagreen;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 900px){
+    .i {
+        background-color: lightblue;
+    }
+
+    .h {
+        background-color: lightgreen;
+    }
+
+    .g {
+        background-color: lightgoldenrodyellow;
+    }
+
+    .e {
+        background-color: lightgrey;
+    }
+
+    .f {
+        background-color: lightcyan;
+    }
+
+    .d {
+        background-color: lightcoral;
+    }
+
+    .c {
+        background-color: lightskyblue;
+    }
+
+    .b {
+        background-color: lightcyan;
+    }
+
+    .a {
+        background-color: lightseagreen;
+    }
+}
+
+@media screen and (min-width: 901px) {
+    .c {
+        background-color: lightblue;
+    }
+
+    .i {
+        background-color: lightgreen;
+    }
+
+    .f {
+        background-color: lightgoldenrodyellow;
+    }
+
+    .a {
+        background-color: lightgrey;
+    }
+
+    .g {
+        background-color: lightcyan;
+    }
+
+    .h {
+        background-color: lightcoral;
+    }
+
+    .b {
+        background-color: lightskyblue;
+    }
+
+    .d {
+        background-color: lightcyan;
+    }
+
+    .e {
+        background-color: lightseagreen;
+    }
+}
