@@ -9,9 +9,13 @@ html, body {
     width: 100%;
 }
 
-div {
-    border: 1px solid darkslategrey;
-    position: relative;
+main {
+    width: 100%;
+}
+
+.content {
+    border: 1px solid red;
+    box-sizing: border-box;
 }
 
 h1 {

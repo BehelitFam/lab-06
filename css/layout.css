@@ -1,78 +1,62 @@
 body, main, section, div {
-    display: inline-block;
+    display: grid;
     margin: 0 auto 0 auto;
     text-align: center;
+    width: 100%;
 }
 
-.efghSection div {
-    display: inline-block;
-    height: 250px;
-    width: 50%;
+
+
+div {
+    position: relative;
 }
+
+
 
 @media screen and (min-width: 480px) and (max-width: 767px) {
     main {
+        grid-template-rows: 75px 1fr;
         width: 480px;
     }
 
-    div, section {
-        width: 100%;
+    .notA {
+        grid-template-rows: 150px 1fr;
     }
 
-    .a {
-        height: 75px;
-    }
-
-    .b {
-        height: 150px;
-    }
-
-    .cd {
-        height: 125px;
+    .ugh {
+        grid-template-rows: 125px 500px 80px;
     }
     
-    .i {
-        height: 80px;
+    .efghSection {
+        grid-template-columns: 1fr 1fr;
     }
+
 }
 
 @media screen and (min-width: 768px) {
+
     main {
+        grid-template-rows: 100px 1fr;
         width: 100%;
         max-width: 960px;
     }
     
-    div, section {
-        float: left;
-    }
-
-    section {
-        width: 50%;
+    .notA {
+        grid-template-columns: 200px 1fr;
+        height: 600px;
     }
 
     .ugh {
-        width: calc(100% - 200px);
+        grid-template-rows: 200px 250px 150px;
     }
 
-    .a {
-        height: 100px;
-        width: 100%;
+    .cdSection {
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .efghSection {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 
-    .b {
-        height: 600px;
-        width: 200px;
-    }
-
- 
-    .cd {
-        width: 50%;
-        height: 200px;
-    }
-
-    .i {
-        height: 150px;
-        width: 100%;
-    }
 }
 

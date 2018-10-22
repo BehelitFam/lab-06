@@ -39,7 +39,7 @@
     }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 900px){
     .i {
         background-color: lightblue;
     }
@@ -73,6 +73,44 @@
     }
 
     .a {
+        background-color: lightseagreen;
+    }
+}
+
+@media screen and (min-width: 901px) {
+    .c {
+        background-color: lightblue;
+    }
+
+    .i {
+        background-color: lightgreen;
+    }
+
+    .f {
+        background-color: lightgoldenrodyellow;
+    }
+
+    .a {
+        background-color: lightgrey;
+    }
+
+    .g {
+        background-color: lightcyan;
+    }
+
+    .h {
+        background-color: lightcoral;
+    }
+
+    .b {
+        background-color: lightskyblue;
+    }
+
+    .d {
+        background-color: lightcyan;
+    }
+
+    .e {
         background-color: lightseagreen;
     }
 }
