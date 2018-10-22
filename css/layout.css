@@ -1,0 +1,78 @@
+body, main, section, div {
+    display: inline-block;
+    margin: 0 auto 0 auto;
+    text-align: center;
+}
+
+.efghSection div {
+    display: inline-block;
+    height: 250px;
+    width: 50%;
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    main {
+        width: 480px;
+    }
+
+    div, section {
+        width: 100%;
+    }
+
+    .a {
+        height: 75px;
+    }
+
+    .b {
+        height: 150px;
+    }
+
+    .cd {
+        height: 125px;
+    }
+    
+    .i {
+        height: 80px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    main {
+        width: 100%;
+        max-width: 960px;
+    }
+    
+    div, section {
+        float: left;
+    }
+
+    section {
+        width: 50%;
+    }
+
+    .ugh {
+        width: calc(100% - 200px);
+    }
+
+    .a {
+        height: 100px;
+        width: 100%;
+    }
+
+    .b {
+        height: 600px;
+        width: 200px;
+    }
+
+ 
+    .cd {
+        width: 50%;
+        height: 200px;
+    }
+
+    .i {
+        height: 150px;
+        width: 100%;
+    }
+}
+
